@@ -1,0 +1,467 @@
+body {
+    overflow-x: hidden;
+  }
+
+  .svg-container {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    margin-top: -66px;
+
+}
+
+svg {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.bg-img{
+    background-image: url(images/bg_image.png);
+    background-size: cover;
+    background-position: bottom;
+    background-color: #000000c4;
+    background-blend-mode: multiply;
+    height: 95vh;
+}
+
+.features{
+margin-top: -170px !important;
+padding-top: 150px;
+}
+
+.bg-blue{
+    background: #161363;
+    color: #fff;
+}
+
+.navbar-nav{
+    margin-left:auto !important;
+    margin-right:5px !important;
+}
+
+.navbar-nav li{
+    padding-right: 30px;
+    font-size: larger;
+}
+
+.nav-link{
+    color: white;
+}
+
+
+
+.logo{
+    width: 350px;
+    max-width: 500px;
+    margin-bottom: 20px;
+}
+
+.absolute{
+    position: relative
+}
+
+.bg-wave{
+    margin-top: -190px;
+    z-index: +222;
+}
+
+.toy{
+    width: 150px;
+    margin-top: 100px;
+    rotate: 7deg;
+    position: absolute;
+    z-index: +222;
+}
+
+.phone-container{
+    position:absolute;
+  
+}
+
+.phone{
+    width: 300px;
+}
+
+.shree{
+    font-family: "Shree Devanagari 714"
+}
+
+.acumin{
+    font-family: "Acumin Variable Concept";
+}
+
+.christmas{
+    font-family: "Farmhouse";
+}
+
+.title-color{
+    color:#FF4F56;
+    font-size: 4rem;
+    font-weight: bold;
+    /* font-family: "Hometown Rough Bold Shadow"; */
+    /* font-family: "Shree Devanagari 714" */
+    /* font-family: "Acumin Variable Concept"; */
+    /* font-family: "Farmhouse"; */
+    line-height: 1;
+    margin-top: 20px;                         
+}
+
+.btn-big{
+    font-size:2rem;
+}
+
+.feature-image{
+    border: 50px solid #FF4F56;
+}
+
+.bullets li{
+    font-size: 36px;
+    font-weight: bold;
+    font-family: "Farmhouse";
+    list-style: none;
+}
+
+.bullets li:before {    
+    font-family: 'FontAwesome';
+    content: '\f086';
+    margin:0 10px 0 0;
+}
+
+.bullets p{
+    font-size: 24px;
+    font-family: "acumin";
+}
+
+.bg-gray{
+   background: #eaeaea;
+   padding-bottom: 100px;
+}
+
+.p-100{
+    padding-top: 100px;
+ }
+
+ .p-50{
+    padding: 50px;
+ }
+
+ .p-100{
+    padding: 100px 0;
+ }
+
+ .pt-50{
+    padding-top: 50px 0;
+ }
+ 
+ .testimonial{
+    padding: 100px;
+ }
+
+ .testimonial i{
+    font-size: 3rem;
+    margin-bottom:20px;
+    color:#FF4F56
+ }
+
+ .testimonial p{
+    font-size: 1.2rem;
+ }
+
+ .bg-red{
+    background: #FF4F56;
+ }
+
+ .bg-white{
+    background: white;
+ }
+
+ .blue-cart{
+    padding: 30px;
+    border: 1px solid white;
+    /* background: #161363; */
+    color:white;
+    margin: 10px auto;
+ }
+
+ .blue-cart i{
+    font-size: 4rem;
+    padding: 50px;
+ }
+
+ .text{
+    font-size: 1.3rem;
+    padding: 20px;
+ }
+
+ .text-blue{
+    color: #161363;
+ }
+
+ .price-card{
+    padding: 30px 10px;
+ }
+
+ .price-card p{
+    color: #333333;
+    line-height: 1;
+ }
+
+ .bold{
+    font-weight: bold;
+ }
+
+ .sign{
+    color:gray;
+ }
+
+ .price{
+    font-size: 80px;
+ }
+
+ hr {
+    border-top:1px dotted #000;
+}
+
+.btn{
+    border-radius: 20px;
+    padding: 5px 30px;
+}
+
+.white{
+    color: white !important;
+}
+
+.plan-title{
+    padding-top: 50px;
+}
+
+/* other pages */
+
+.big-nav{
+    height: 300px;
+}
+
+.big-nav .nav-link{
+    color: black;
+}
+
+.check-title{
+    margin-top: 20px;
+    margin-bottom: 0;
+}
+
+/* other pages */
+    .content{
+        border-top:5px solid #FF4F56;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+  
+
+    .color-btn{
+        /* width:50px;
+        height:50px; */
+        font-weight: bold;
+        font-size: 20px;
+        margin-top: 20px;
+        padding: 0;
+        border-radius: 0;
+        color: white;
+        border: 1px solid white;
+        padding:15px 20px
+    }
+
+    .color-btn:hover{
+        border: 2px solid white
+    }
+
+.color-1{
+    background: #ff4e3a;
+}
+
+.color-2{
+    background: #32544F;
+}
+
+.color-3{
+    background: #F7B602;
+}
+
+.color-4{
+    background: #046D72;
+}
+
+.color-5{
+    background: #D80919;
+}
+
+.color-6{
+    background: #79599A;
+}
+
+.color-7{
+    background: #68574C;
+}
+
+.color-8{
+    background: #0668B2;
+}
+
+.color-9{
+    background: #D24663;
+}
+
+.color-10{
+    background: #54A1D1;
+}
+
+.color-11{
+    background: #5B340E;
+}
+
+.color-12{
+    background: #62DDD3;
+}
+
+.form-check{
+    margin-top: 5px;
+}
+input[type='checkbox'] {
+    -webkit-appearance:none;
+    height:20px;
+    width:20px;
+    background:white;
+    border-radius:5px;
+}
+
+input[type='checkbox']:checked {
+    background: #FF4F56;
+}
+
+label{
+    font-size: 16px;
+    padding-left: 10px;
+}
+
+.btn-danger{
+    background:#FF4F56
+}
+
+.image-box{
+    background: #FF4F56;
+    padding-top:20px;
+    border-radius: 10px;
+    border:1px solid white;
+    height: 100px;
+    width: 100px;
+    margin:5px auto
+}
+
+.image-box i{
+    font-size: 40px;
+}
+
+.image-box p{
+    font-size: 18px;
+}
+
+.text-decoration-none a{
+    color:white;
+    text-decoration: none;
+}
+
+.small-logo{
+    width: 200px;
+}
+
+
+
+
+/* bacToTop */
+#button {
+    display: inline-block;
+    background-color: #FF4F56;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    border-radius: 25px;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    transition: background-color .3s, 
+      opacity .5s, visibility .5s;
+    opacity: 0;
+    visibility: hidden;
+    z-index: +222222;
+    text-decoration: none;
+  }
+  #button::after {
+    content: "\f077";
+    font-family: FontAwesome;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 2em;
+    line-height: 50px;
+    color: #fff;
+  }
+  #button:hover {
+    cursor: pointer;
+    background-color: #333;
+  }
+  #button:active {
+    background-color: #555;
+  }
+  #button.show {
+    opacity: 1;
+    visibility: visible;
+  }
+  
+  /*  */
+
+ @media (min-width: 320px) and (max-width: 480px) { 
+    .title-color{
+        font-size: 30px
+    }
+
+   
+
+    .bg-wave{
+        display: none;
+    }
+    
+    .features{
+        margin-top: 0;
+        padding: 20px;
+    }
+
+    .phone{
+        width: 50%;
+        margin-bottom: 30px;
+    }
+
+    .testimonial{
+        padding: 30px;
+    }
+
+    .client img{
+        margin-top: 20px;
+    }
+
+    .feature-image{
+        margin-bottom: 30px;
+    }
+
+    .p-100{
+        padding:30px
+    }
+
+    .bullets li{
+        font-size: 20px;
+        font-weight: bold;
+    }
+
+    .image-box{
+        margin: 30px auto;
+    }
+  }
