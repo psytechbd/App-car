@@ -62,7 +62,7 @@ padding-top: 150px;
 }
 
 .bg-wave{
-    margin-top: -190px;
+    margin-top: -170px;
     z-index: +222;
 }
 
@@ -375,9 +375,6 @@ label{
     width: 200px;
 }
 
-
-
-
 /* bacToTop */
 #button {
     display: inline-block;
@@ -396,6 +393,7 @@ label{
     z-index: +222222;
     text-decoration: none;
   }
+
   #button::after {
     content: "\f077";
     font-family: FontAwesome;
@@ -405,13 +403,16 @@ label{
     line-height: 50px;
     color: #fff;
   }
+
   #button:hover {
     cursor: pointer;
     background-color: #333;
   }
+
   #button:active {
     background-color: #555;
   }
+
   #button.show {
     opacity: 1;
     visibility: visible;
@@ -464,4 +465,17 @@ label{
     .image-box{
         margin: 30px auto;
     }
+
+    .bg-img{
+        height: 100vh;
+    }
+
+    .video iframe{
+        width: 90% !important;
+    }
+
+    .img-fluid.border.border-5 {
+        margin-bottom: 30px !important;
+    }
+
   }
