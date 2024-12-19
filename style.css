@@ -62,7 +62,7 @@ padding-top: 150px;
 }
 
 .bg-wave{
-    margin-top: -170px;
+    margin-top: -180px;
     z-index: +222;
 }
 
@@ -250,6 +250,12 @@ padding-top: 150px;
     margin-top: 20px;
     margin-bottom: 0;
 }
+
+
+:root {
+    --animate-duration: 800ms;
+    --animate-delay: 0.9s;
+  }
 
 /* other pages */
     .content{
