@@ -20,11 +20,13 @@
 
 <body>
     <!-- nav -->
-    <nav class="navbar bg-body-tertiary big-nav">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="#"></a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
-                aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+    <nav class="navbar bg-blue">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="images/logo-01.png" alt="" class="small-logo">
+            </a>
+            <button class="navbar-toggler navbar-dark" type="button" data-bs-toggle="offcanvas"
+                data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
@@ -45,69 +47,57 @@
                 </div>
             </div>
         </div>
-        <div class="container justify-content-center">
-            <img src="images/logo.png" alt="" class="logo">
-        </div>
     </nav>
     <!-- nav -->
+
     <!-- Content -->
-    <div class="content bg-blue p-50">
-        <div class="container">
-            <div class="row  justify-content-center">
-                <div class="">
-                    <div class="col text-center p-5">
-                        <h4 class="bold">Title Goes Here</h4>
-                        <p>Lorem ipsum dolor sit amet</p>
+    <div class="bg-gray">
+
+        <div class="container p-5 text-center">
+            <h3>Contact Us</h3>
+            <p>if you have any questions, please reach out.</p>
+
+            <div class="row bg-light p-5 text-start">
+                <div class="col-md-6 contact">
+                    <p class="fw-bold">We look forward to your feedback.</p>
+                    <div class="mb-3">
+                        <input type="Name" class="form-control" id="exampleFormControlInput1" placeholder="Name">
                     </div>
-                    <div class="row justify-content-center p-5">
-                        <div class="col-md-2">
-                            <p class="bold check-title">Type: 1</p>
-                            <div class="pt-2 text-start">
-                                <div class="">
-                                    <div class="form-check">
-                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
-                                        <label class="form-check-label" for="flexCheckDefault">
-                                            Rectangle
-                                        </label>
-                                    </div>
-                                    <div class="form-check">
-                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
-                                        <label class="form-check-label" for="flexCheckDefault">
-                                            Circle
-                                        </label>
-                                    </div>
-
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-2">
-                            <p class="bold check-title">Type: 2</p>
-                            <div class="pt-2 text-start">
-                                <div class="">
-                                    <div class="form-check">
-                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
-                                        <label class="form-check-label" for="flexCheckDefault">
-                                            Rectangle
-                                        </label>
-                                    </div>
-                                    <div class="form-check">
-                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
-                                        <label class="form-check-label" for="flexCheckDefault">
-                                            Circle
-                                        </label>
-                                    </div>
-
-                                </div>
-                            </div>
-                        </div>
+                    <div class="mb-3">
+                        <input type="email" class="form-control" id="exampleFormControlInput2" placeholder="Email">
+                    </div>
+                    <div class="mb-3">
+                        <input type="Subject" class="form-control" id="exampleFormControlInput3" placeholder="Subject">
+                    </div>
+                    <div class="mb-3">
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"
+                            placeholder="Message"></textarea>
+                    </div>
+                    <button class="btn btn-danger fw-bold">Send Message</button>
+                </div>
+                <div class="col-md-6">
+                    <div class="px-5 mb-4 mt-5">
+                        <p class="fw-bold m-0">Mailing Address:</p>
+                        <p class="">Address goes here</p>
+                    </div>
+                    <div class="px-5 mb-4">
+                        <p class="fw-bold m-0">Call Us</p>
+                        <p>888-123-1234</p>
+                    </div>
+                    <div class="px-5 mb-4">
+                        <p class="fw-bold m-0">Email Us</p>
+                        <p>info@gmail.com</p>
                     </div>
                     <div class="text-center">
-                        <button class="btn btn-danger">Next</button>
+
+                        <img src="images/logo.png" alt="" class="small-logo">
                     </div>
                 </div>
             </div>
         </div>
+
     </div>
+
     <!-- Content -->
 
     <!-- Footer -->

@@ -16,7 +16,7 @@
     <link href="https://db.onlinewebfonts.com/c/066ce24dae3730ed6c648b09efaea93a?family=Acumin+Variable+Concept"
         rel="stylesheet">
     <link href="https://db.onlinewebfonts.com/c/6838068bba0f7a5ba2bf9fe476507bbf?family=Farmhouse" rel="stylesheet">
-    
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Roboto&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
 </head>
 
@@ -34,13 +34,13 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0 text-right shree  main-nav">
                         <li class="nav-item">
-                            <a class="nav-link" aria-current="page" href="#">Features</a>
+                            <a class="nav-link" aria-current="page" href="#s-features">Features</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Contact</a>
+                            <a class="nav-link" href="#s-contact">Contact</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Pricing</a>
+                            <a class="nav-link" href="#s-pricing">Pricing</a>
                         </li>
                     </ul>
                     <form class="d-flex" role="search">
@@ -76,7 +76,7 @@
     </div>
     <!-- Wave -->
     <!-- Features 1-->
-    <div class="bg-gray features">
+    <div id="s-features" class="bg-gray features">
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-md-6 p-5">
@@ -267,7 +267,7 @@
     <!-- service cart -->
     <!-- Price cart -->
     <div class="bg-red p-100">
-        <div class="container">
+        <div id="s-pricing" class="container">
             <div class="row">
                 <div class="col-md-2"></div>
                 <div class="col-md-8 bg-blue">
@@ -341,13 +341,61 @@
         </div>
     </div>
     <!-- Affliations -->
+    <!-- Contact -->
+    <div class="bg-gray">
+
+        <div id="s-contact" class="container p-5 text-center">
+            <h2 class="bold">CONTACT US</h2>
+            <p>if you have any questions, please reach out.</p>
+
+            <div class="row bg-light p-5 text-start">
+                <div class="col-md-6 contact">
+                    <p class="fw-bold">We look forward to your feedback.</p>
+                    <div class="mb-3">
+                        <input type="Name" class="form-control" id="exampleFormControlInput1" placeholder="Name">
+                    </div>
+                    <div class="mb-3">
+                        <input type="email" class="form-control" id="exampleFormControlInput2" placeholder="Email">
+                    </div>
+                    <div class="mb-3">
+                        <input type="Subject" class="form-control" id="exampleFormControlInput3" placeholder="Subject">
+                    </div>
+                    <div class="mb-3">
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"
+                            placeholder="Message"></textarea>
+                    </div>
+                    <button class="btn btn-danger fw-bold">Send Message</button>
+                </div>
+                <div class="col-md-6">
+                    <div class="px-5 mb-4 mt-5">
+                        <p class="fw-bold m-0">Mailing Address:</p>
+                        <p class="">Address goes here</p>
+                    </div>
+                    <div class="px-5 mb-4">
+                        <p class="fw-bold m-0">Call Us</p>
+                        <p>888-123-1234</p>
+                    </div>
+                    <div class="px-5 mb-4">
+                        <p class="fw-bold m-0">Email Us</p>
+                        <p>info@gmail.com</p>
+                    </div>
+                    <div class="text-center">
+
+                        <img src="images/logo.png" alt="" class="small-logo">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <!-- Contact -->
     <!-- Footer -->
     <div class="bg-blue p-50 text-center">
         <div class="row">
             <div class="col">
                 <p class="bold">Copyright &copy;2024</p>
-                <p><a class="text-decoration-none white" href="#">Terms of Use</a> | <a
-                        class="text-decoration-none white" href="#">Privacy Policy</a></p>
+                <p><a class="text-decoration-none white" href="privacy.html">Terms of Use</a> | <a
+                        class="text-decoration-none white" href="privacy.html">Privacy Policy</a></p>
             </div>
         </div>
     </div>
